@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  height: 100vh;
+}
+
+.parent-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.colorNameDiv {
+  width: 10%;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.color-div {
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 1.5rem;
+  border-radius: 0.2rem;
+}
+ul {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.colorCode-div {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+  width: 18%;
+  margin: 20px 0;
+}
+.span-number {
+  font-weight: 600;
+}
